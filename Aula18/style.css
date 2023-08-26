@@ -1,0 +1,31 @@
+.MenuMobile{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 150px;
+    height: 100vh;
+    background: black;
+    color: white;
+    transition: all 500ms ease;
+}
+
+.MenuMobile li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+
+.MenuMobile.aberto{
+    left: 0%;
+}
+
+.BotaoMenu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.BotaoMenu:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
